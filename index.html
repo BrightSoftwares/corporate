@@ -59,18 +59,19 @@
 					Nous vous préparons un site <span class="m1-txt2">magnifique</span>, suivez-nous pour savoir quand il est prêt!
 				</p>
 
-				<form class="contact100-form validate-form">
+				<form class="contact100-form validate-form" id="contactForm">
 					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Le nom est requis">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Votre nom">
+						<input id="name" class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Votre nom">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 m-b-20 validate-input" data-validate = "L'adresse E-mail est requis: ex@abc.xyz">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Votre email">
+						<input id="email" class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Votre email">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="w-full">
+						<div id="success"></div>
 						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
 							Abonnez-vous gratuitement
 						</button>
